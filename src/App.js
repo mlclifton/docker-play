@@ -10,7 +10,7 @@ function App() {
         <p>
           Hello React World!
         </p>
-        <p>Really Nice to Meet You :-)</p>
+        <p>I was changed on the feature branch :-)</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
