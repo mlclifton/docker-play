@@ -4,7 +4,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t mldocks/docker-react -f Dockerfile.dev .
+  - docker build -t mlcdocks/docker-react -f Dockerfile.dev .
 
 script:
   - docker run -e CI=true mlcdocks/docker-react npm run test -- --coverage
